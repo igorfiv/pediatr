@@ -3,6 +3,38 @@
 	{
 		"selected_items":
 		[
+			[
+				"re",
+				"return"
+			],
+			[
+				"q",
+				"question_id"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"C",
+				"ChoiceLine"
+			],
+			[
+				"Qu",
+				"QuestionAdmin"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"pu",
+				"pub_date"
+			],
+			[
+				"question",
+				"question_text"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +43,65 @@
 			"file": "pediatr/settings.py",
 			"settings":
 			{
-				"buffer_size": 2731,
+				"buffer_size": 2691,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polls/templates/polls/index.html",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Windows",
+				"name": "{% if latest_question_list %}"
+			}
+		},
+		{
+			"file": "polls/models.py",
+			"settings":
+			{
+				"buffer_size": 632,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polls/admin.py",
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polls/views.py",
+			"settings":
+			{
+				"buffer_size": 781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polls/templates/polls/detail.html",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Windows",
+				"name": "{{ question }}"
+			}
+		},
+		{
+			"file": "polls/urls.py",
+			"settings":
+			{
+				"buffer_size": 415,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pediatr/urls.py",
+			"settings":
+			{
+				"buffer_size": 801,
 				"line_ending": "Unix"
 			}
 		}
@@ -40,6 +130,8 @@
 	},
 	"file_history":
 	[
+		"/C/Project/pediatr/pediatr/templates/admin/base_site.html",
+		"/C/Project/pediatr/pediatr/templates/admin/index.html"
 	],
 	"find":
 	{
@@ -74,7 +166,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -82,15 +174,15 @@
 					"file": "pediatr/settings.py",
 					"settings":
 					{
-						"buffer_size": 2731,
+						"buffer_size": 2691,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2427,
-								2427
+								1741,
+								1741
 							]
 						],
 						"settings":
@@ -100,7 +192,194 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "polls/templates/polls/index.html",
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{% if latest_question_list %}",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "polls/models.py",
+					"settings":
+					{
+						"buffer_size": 632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "polls/admin.py",
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								500,
+								500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "polls/views.py",
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "polls/templates/polls/detail.html",
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{{ question }}",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "polls/urls.py",
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "pediatr/urls.py",
+					"settings":
+					{
+						"buffer_size": 801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								748,
+								748
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -114,7 +393,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

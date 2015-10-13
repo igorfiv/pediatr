@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "pediatr"
+		},
+		{
+			"path": "polls"
 		}
 	]
 }
